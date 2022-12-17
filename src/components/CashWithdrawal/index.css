@@ -1,0 +1,121 @@
+@media (max-width: 767px) {
+  .bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    height: 100vh;
+  }
+  .card {
+    background-color: #150b3e;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .profile {
+    display: flex;
+  }
+  .profile-struc {
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7d2fe;
+    padding: 20px;
+    height: 50px;
+  }
+  .name {
+    color: #d4d2db;
+    margin-left: 10px;
+  }
+  .balance-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .balance-text {
+    color: #585076;
+    font-weight: bold;
+  }
+  .balance {
+    color: #d4d2db;
+    font-size: 25px;
+  }
+  .tag {
+    color: #585076;
+    font-size: 12px;
+  }
+  .withdraw {
+    color: #d4d2db;
+    font-size: 20px;
+  }
+  .denom-text {
+    color: #585076;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .denominations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 767px) {
+  .bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    height: 100vh;
+  }
+  .card {
+    background-color: #150b3e;
+    border-radius: 10px;
+    padding: 30px;
+    width: 30%;
+  }
+  .profile {
+    display: flex;
+  }
+  .profile-struc {
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7d2fe;
+    padding: 20px;
+    height: 50px;
+  }
+  .name {
+    color: #d4d2db;
+    margin-left: 10px;
+  }
+  .balance-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .balance-text {
+    color: #585076;
+    font-weight: bold;
+  }
+  .balance {
+    color: #d4d2db;
+    font-size: 25px;
+  }
+  .tag {
+    color: #585076;
+    font-size: 12px;
+  }
+  .withdraw {
+    color: #d4d2db;
+    font-size: 20px;
+  }
+  .denom-text {
+    color: #585076;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .denominations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
